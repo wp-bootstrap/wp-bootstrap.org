@@ -25,7 +25,7 @@ function get_repos() {
 					'</p>' +
 					'<h3 class="repo-title"><a target="_blank" href="' + this.html_url + '">' + this.name + '</a></h3>' +
 					'<p>' + this.description + '</p>' +
-					'</div></div>' +'	<script async defer src="https://buttons.github.io/buttons.js"></script>'
+					'</div></div>' +'	<script async defer src="https://buttons.github.io/buttons.js"></script>';
 			});
 			$('#result').append(html); // add the array to html to
 		} // End AJAX call
